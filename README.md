@@ -349,8 +349,11 @@ plt.xlim([105,-5]) #Bonus
 plt.ylim([-1.05,1.05]) #Bonus
 #set a grid
 plt.grid()
+#save png
+plt.savefig('Sentiment Analysis of Media Tweets.png')
 #plot the chart
 plt.show()
+
 ```
 
 
@@ -466,7 +469,11 @@ bar_chart[4].set_color('yellow')
 plt.ylim([-0.3,0.15]) #Bonus
 #add grid
 plt.grid()
+#save png
+plt.savefig('Overall Media Sentiment Based on Tweeter.png')
+#plot 
 plt.show()
+
 ```
 
 
